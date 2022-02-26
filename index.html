@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Scissor Game</title>
+</head>
+<body>
+<section class="game">
+    <div class="score">
+        <div class="player_score">
+            <h2>player</h2>
+            <p>0</p>
+        </div>
+        <div class="computer_score">
+            <h2>computer</h2>
+            <p>0</p>
+        </div>
+    </div>
+
+    <div class="intro">
+        <h1>kertas gunting batuk</h1>
+        <button class="roll">Let's Roll</button>
+    </div>
+
+    <div class="match fadeOut">
+        <h2 class="winner">choose an option</h2>
+        <div class="hand">
+            <img class="player_hand" src="./assets/rock.png" alt="">
+            <img class="computer_hand" src="./assets/rock.png" alt="">
+        </div>
+        <div class="option">
+            <button class="rock">rock</button>
+            <button class="paper">paper</button>
+            <button class="scissor">scissors</button>
+        </div>
+    </div>
+
+</section>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
